@@ -1,0 +1,15 @@
+PORT=1234
+HYPLAG_BACKEND_REFRESH_TOKEN_INTERVAL_MIN=60
+HYPLAG_BACKEND_URL="https://backend.hyplag.org"
+HYPLAG_BACKEND_USERNAME="username"
+HYPLAG_PASS="pass"
+MONGO_DB_URL="mongodb://abcd"
+VALID_CORS_URL="http://hyplag.birkankolcu.com"
+SECRET_JWT_KEY_FILE_NAME="jwt.key"
+IS_ANY_CORS_ACCEPTED=true
+IS_HYPLAG_BACKEND_MOCKED=false
+
+#HYPLAG_BACKEND_URL="https://backend.hyplag.org"
+#HYPLAG_BACKEND_URL="https://hyplag-backend.test.gipp.com"
+
+#Fill the variables and save file name as ".env" in the src-backend folder.

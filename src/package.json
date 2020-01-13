@@ -1,0 +1,27 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "- PASS\r ###sign-up.html\r     - POST /user/signup\r         request\r             {\r                 mail: \"\",\r                 password: \"\",\r             }\r         response\r             {\r                 msg: \"succesfully signed up.\",\r                 data: {\r                 }\r             }\r             {\r                 msg: \"this email already exists\",\r                 data: {\r                 }\r             }\r ###login.html\r     - POST /user/login\r         request\r             {\r                 username: \"\",\r                 password: \"\"\r             }\r         response\r             {\r                 msg: \"succesfully logged in.\",\r                 data: {\r                     token: \"\"\r                 }\r             }\r             {\r                 msg: \"invalid credentials\",\r                 data: {\r                 }\r             }",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bibtex-parse": "^2.0.0",
+    "dotenv": "^8.1.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "jsonfile": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.5",
+    "multer": "^1.4.2",
+    "puppeteer": "^2.0.0",
+    "puppeteer-extra": "^3.1.7",
+    "puppeteer-extra-plugin-stealth": "^2.4.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
