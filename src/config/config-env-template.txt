@@ -9,7 +9,7 @@ SECRET_JWT_KEY_FILE_NAME="jwt.key"
 IS_ANY_CORS_ACCEPTED=true
 IS_HYPLAG_BACKEND_MOCKED=false
 
-#HYPLAG_BACKEND_URL="https://backend.hyplag.org"
-#HYPLAG_BACKEND_URL="https://hyplag-backend.test.gipp.com"
+TINY_SCHOLAR_API_IP="localhost"
+TINY_SCHOLAR_API_PORT="3000"
 
 #Fill the variables and save file name as ".env" in the src-backend folder.
