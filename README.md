@@ -39,7 +39,7 @@
 - node app.js
 
 ## Related Links
-- RecVis Backend Repository: https://github.com/ag-gipp/hyplag-recvis-frontend
+- RecVis Front-end Repository: https://github.com/ag-gipp/hyplag-recvis-frontend
 - RecVis Tiny Scholar API (Currently Required by RecVis Backend): https://github.com/ag-gipp/hyplag-recvis-tiny-scholar-api
 
 ## Credits
