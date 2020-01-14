@@ -16,7 +16,7 @@
 
 ![alt text](https://github.com/ag-gipp/hyplag-recvis-frontend/blob/master/images/recvis-overview.png?raw=true)
 
-## Deployment/Development of RecVis Back-end
+## Deployment/Development of RecVis Backend
 ### Configuration of backend
 - cd /path/to/repo
 - cd src
