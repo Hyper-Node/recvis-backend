@@ -1,4 +1,4 @@
-# hyplag-recvis-backend
+# recvis-backend
 
 ## About RecVis
 - RecVis project provides a novel approach to discover scientific literature based on Hyplag.org open source project. Users are able to discover relevant papers based on only given input academic paper. RecVis will recommend similar literature and will provide a visualization with custimizable weights for filtering out most relavent papers.
@@ -6,15 +6,15 @@
 ## Screenshots from RecVis
 - The user interface is developed using standard web development technologies such as HTMl, Javascript, CSS and Bootstrap. Following is the welcome page of RecVis.
 
-![alt text](https://github.com/ag-gipp/hyplag-recvis-frontend/blob/master/images/recvis-welcome-page.png?raw=true)
+![alt text](https://github.com/ag-gipp/recvis-frontend/blob/master/images/recvis-welcome-page.png?raw=true)
 
 - User dashboard.
 
-![alt text](https://github.com/ag-gipp/hyplag-recvis-frontend/blob/master/images/recvis-folders.png?raw=true)
+![alt text](https://github.com/ag-gipp/recvis-frontend/blob/master/images/recvis-folders.png?raw=true)
 
 - Visualization of recommended literature. Visualization of the data is created using D3.js.
 
-![alt text](https://github.com/ag-gipp/hyplag-recvis-frontend/blob/master/images/recvis-overview.png?raw=true)
+![alt text](https://github.com/ag-gipp/recvis-frontend/blob/master/images/recvis-overview.png?raw=true)
 
 ## Deployment/Development of RecVis Backend
 ### Configuration of backend
@@ -39,8 +39,8 @@
 - node app.js
 
 ## Related Links
-- RecVis Front-end Repository: https://github.com/ag-gipp/hyplag-recvis-frontend
-- RecVis Tiny Scholar API (Currently Required by RecVis Backend): https://github.com/ag-gipp/hyplag-recvis-tiny-scholar-api
+- RecVis Front-end Repository: https://github.com/ag-gipp/recvis-frontend
+- RecVis Tiny Scholar API (Currently Required by RecVis Backend): https://github.com/ag-gipp/recvis-tiny-scholar-api
 
 ## Credits
 - This project is developed by [Data & Knowledge Engineering Group](https://dke.uni-wuppertal.de/de.html "Data & Knowledge Engineering Group Web Page")
