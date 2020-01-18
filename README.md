@@ -31,6 +31,8 @@
     - for development purposes you can accept HTTP request from any domain by keeping IS_ANY_CORS_ACCEPTED set to true.
     - IS_HYPLAG_BACKEND_MOCKED currently not functional.
     - set TINY_SCHOLAR_API_IP and TINY_SCHOLAR_API_PORT accordingly. You need to be running this service in order to be able to fetch year & venue data of recommeded articles. See the Tiny Scholar API repo from related links.
+- mkdir secret
+- cp /path/to/your/jwt.key ./secret/jwt.key
 
 ### Installing necessary libraries
 - npm install
