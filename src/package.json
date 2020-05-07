@@ -4,7 +4,7 @@
   "description": "- PASS\r ###sign-up.html\r     - POST /user/signup\r         request\r             {\r                 mail: \"\",\r                 password: \"\",\r             }\r         response\r             {\r                 msg: \"succesfully signed up.\",\r                 data: {\r                 }\r             }\r             {\r                 msg: \"this email already exists\",\r                 data: {\r                 }\r             }\r ###login.html\r     - POST /user/login\r         request\r             {\r                 username: \"\",\r                 password: \"\"\r             }\r         response\r             {\r                 msg: \"succesfully logged in.\",\r                 data: {\r                     token: \"\"\r                 }\r             }\r             {\r                 msg: \"invalid credentials\",\r                 data: {\r                 }\r             }",
   "main": "app.js",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^3.0.7",
     "bibtex-parse": "^2.0.0",
     "dotenv": "^8.1.0",
     "email-validator": "^2.0.4",

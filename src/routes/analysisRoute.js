@@ -343,6 +343,7 @@ router.post('/result', function(req, response) {
                                         var matchedDocumentList = [];
 
                                         paperMetadataList.forEach(function(paperMetadata){
+                                            if(!paperMetadata) return;
                                             const paperID = paperMetadata.documentId;
                                             var matchedDocumentData = {
                                                 "name": paperMetadata.title,
@@ -496,9 +497,12 @@ router.post('/result', function(req, response) {
                                         })
                                     }).catch(function(err) {
                                         console.log("Whoops, error while fetching paper metadata with Promise :(");
+                                        console.log(err)
                                         response.send({
                                             "msg": err,
-                                            "data": {}
+                                            "data": {
+                                                isSucceded: false
+                                            }
                                         })
                                     });
                                 } else {

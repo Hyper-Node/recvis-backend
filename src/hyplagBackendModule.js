@@ -172,6 +172,12 @@ function getAuthToken(backendUrl, username, pass, callback) {
     });
 }
 
+function allSkippingErrors(promises) {
+    return Promise.all(
+      promises.map(p => p.catch(error => null))
+    )
+  }
+
 module.exports = {
     initialize: function(hyplagbackendUrl, username, password, tinyScholarApiIP, tinyScholarApiPort, callback) {
         HYPLAG_BACKEND_URL = hyplagbackendUrl;
@@ -270,7 +276,7 @@ module.exports = {
         paperIdArray.forEach(function(paperId) {
             promiseArray.push(getPaperMetadataAsync(paperId));
         });
-        return Promise.all(promiseArray);
+        return allSkippingErrors(promiseArray);
     },
     indexFile: function(filename, fileBufferData, callback) {
         var options = {
